@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sliding_shouye"
+            android:checked="true"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/sliding_shouye" />
+        <item
+            android:id="@+id/sliding_shoucang"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="@string/sliding_shoucang" />
+        <item
+            android:id="@+id/sliding_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="@string/sliding_history" />
+        <item
+            android:id="@+id/sliding_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/sliding_setting" />
+    </group>
+<item android:title="其他">
+
+
+        <menu>
+            <item
+                android:id="@+id/sliding_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/sliding_help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/sliding_help" />
+        </menu>
+</item>
+
+
+
+</menu>

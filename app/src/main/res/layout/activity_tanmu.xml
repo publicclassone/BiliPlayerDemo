@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zzh="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/titleStyle"
+        android:text="@string/tanmu_yinqing" />
+
+    <com.qianfeng.demo.biliplayer.view.SettingClickView
+        android:id="@+id/Tanmu_yinqing"
+        style="@style/textStyle"
+        android:background="@drawable/shape_corner_all"
+        android:onClick="Tnmuclick" />
+
+    <TextView
+        style="@style/titleStyle"
+        android:text="@string/model" />
+
+    <TextView
+        android:id="@+id/key_word"
+        style="@style/textStyle"
+        android:background="@drawable/app_list_corner_round_top"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="Tnmuclick"
+        android:text="@string/key"
+        android:textSize="15dp" />
+
+    <com.qianfeng.demo.biliplayer.view.SettingItemView
+        android:id="@+id/hid_danmu"
+        style="@style/textStyle"
+        android:background="@drawable/shape_bottom_corner_line"
+        android:onClick="Tnmuclick"
+
+        zzh:content="默认隐藏弹幕"
+        zzh:desc_off="隐藏"
+        zzh:desc_on="显示" />
+
+    <TextView
+        style="@style/titleStyle"
+        android:text="@string/tanmu_select" />
+
+    <com.qianfeng.demo.biliplayer.view.SettingClickView
+        android:id="@+id/tanmu_biankuang_yangshi"
+        style="@style/textStyle"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/app_list_corner_round_top"
+        android:onClick="Tnmuclick" />
+
+    <com.qianfeng.demo.biliplayer.view.SettingItemView
+        android:id="@+id/yingjian_speed"
+        style="@style/textStyle"
+        android:background="@drawable/shape_no_corner_without_bottom"
+        android:onClick="Tnmuclick"
+        zzh:content="DFM弹幕硬件加速渲染"
+        zzh:desc_off="默认绘制模式"
+        zzh:desc_on="硬件加速支持4.0+系统，更省电更流畅" />
+
+    <com.qianfeng.demo.biliplayer.view.SettingItemView
+        android:id="@+id/width_font"
+        style="@style/textStyle"
+        android:background="@drawable/shape_no_corner_without_bottom"
+        android:onClick="Tnmuclick"
+
+        zzh:content="使用等宽字体"
+        zzh:desc_off="针对英文字体优化效果"
+        zzh:desc_on="None" />
+
+    <com.qianfeng.demo.biliplayer.view.SettingItemView
+        android:id="@+id/start_chuti"
+        style="@style/textStyle"
+        android:background="@drawable/shape_bottom_corner_line"
+        android:onClick="Tnmuclick"
+
+        zzh:content="开启粗体"
+        zzh:desc_off="部分字体无效或导致弹幕卡顿"
+        zzh:desc_on="流畅" />
+</LinearLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blcak"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/gray"
+            android:orientation="vertical">
+
+            <TextView
+
+                style="@style/withetextsize"
+                android:text="哔哩哔哩动画工作室" />
+
+            <TextView
+                style="@style/withetextsize"
+                android:text="2.3.1.3.1.2.222.1.2|haha" />
+            <TextView
+                style="@style/withetextsize"
+                android:textColor="@color/pink"
+                android:text="12345678" />
+            <TextView
+                style="@style/withetextsize"
+                android:textColor="@color/pink"
+                android:text="反馈论坛" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <TextView
+                style="@style/withetextsize"
+                android:layout_centerInParent="true"
+                android:text="STTFFF"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <TextView
+                android:id="@+id/text"
+                style="@style/withetextsize"
+                android:layout_centerInParent="true"
+                android:text="原案"
+                />
+            <TextView
+                android:layout_below="@+id/text"
+                style="@style/withetextsize"
+                android:textColor="@color/pink"
+                android:text="哔哩哔哩弹幕网"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <TextView
+                android:id="@+id/text1"
+                style="@style/withetextsize"
+                android:layout_centerInParent="true"
+                android:text="企画"
+                />
+            <TextView
+                android:layout_below="@+id/text1"
+                style="@style/withetextsize"
+                android:text="bishi  ruich97"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <TextView
+                android:id="@+id/text2"
+                style="@style/withetextsize"
+                android:layout_centerInParent="true"
+                android:text="制作"
+                />
+            <TextView
+                android:layout_below="@+id/text2"
+                style="@style/withetextsize"
+                android:text="精英团队嘎嘎~~~"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <TextView
+                android:id="@+id/text3"
+                style="@style/withetextsize"
+                android:layout_centerInParent="true"
+                android:text="作画监督"
+                />
+            <TextView
+                android:layout_below="@+id/text3"
+                style="@style/withetextsize"
+                android:text="朱志辉的团队"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <TextView
+                android:id="@+id/text4"
+                style="@style/withetextsize"
+                android:layout_centerInParent="true"
+                android:text="执行监督"
+                />
+            <TextView
+                android:layout_below="@+id/text4"
+                style="@style/withetextsize"
+                android:text="My God"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <TextView
+                android:id="@+id/text5"
+                style="@style/withetextsize"
+                android:layout_centerInParent="true"
+                android:text="演出"
+                />
+            <TextView
+                android:layout_below="@+id/text5"
+                style="@style/withetextsize"
+                android:text="哔哩哔哩团队所有成员"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <TextView
+                android:id="@+id/text6"
+                style="@style/withetextsize"
+                android:layout_centerInParent="true"
+                android:text="演出"
+                />
+            <TextView
+                android:layout_below="@+id/text6"
+                style="@style/withetextsize"
+                android:text="为覅今晚if挖"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp">
+            <TextView
+                android:id="@+id/text7"
+                style="@style/withetextsize"
+                android:layout_centerInParent="true"
+                android:text="谢幕"
+                />
+            <TextView
+                android:layout_below="@+id/text7"
+                style="@style/withetextsize"
+                android:text="Think"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00bcd4</color>
+    <color name="colorPrimaryDark">#0097a7</color>
+    <color name="colorAccent">#03a9f4</color>
+    <color name="textColorPrimary">#121212</color>
+    <color name="titletextColor">#ffff</color>
+    <color name="darkstroke">#1a1919</color>
+    <color name="refresh_1">#25d715</color>
+    <color name="refresh_2">#0820da</color>
+    <color name="refresh_3">#e50de9</color>
+    <color name="refresh_4">#f7b708</color>
+    <color name="blcak">#000</color>
+    <color name="gray">#cccad0</color>
+    <color name="white">#ffffff</color>
+    <color name="pink">#ff00ff</color>
+    <color name="hese">#330716</color>
+</resources>

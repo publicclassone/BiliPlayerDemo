@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zzh="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/titleStyle"
+            android:text="@string/play" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.qianfeng.demo.biliplayer.view.SettingClickView
+                android:id="@+id/scv_qingxi_select"
+                style="@style/textStyle"
+                android:background="@drawable/app_list_corner_round_top" />
+
+            <com.qianfeng.demo.biliplayer.view.SettingClickView
+                android:id="@+id/scv_playfinish_select"
+                style="@style/textStyle"
+                android:background="@drawable/shape_bottom_corner_line" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/titleStyle"
+            android:text="@string/highsetting" />
+
+        <TextView
+            style="@style/textStyle"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/app_list_corner_round_top"
+            android:onClick="parserscreat"
+            android:text="@string/parsersetting" />
+
+        <TextView
+            style="@style/textStyle"
+            android:onClick="TanMuSetting"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/shape_no_corner_without_bottom"
+            android:text="@string/dansetting" />
+
+        <TextView
+            style="@style/textStyle"
+            android:background="@drawable/shape_bottom_corner_line"
+            android:onClick="outlinesetting"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/downsetting" />
+
+        <TextView
+            style="@style/titleStyle"
+            android:text="@string/outher" />
+
+        <com.qianfeng.demo.biliplayer.view.SettingItemView
+            android:id="@+id/full_screen"
+            style="@style/textStyle"
+            android:background="@drawable/app_list_corner_round_top"
+            zzh:content="全屏播放"
+            zzh:desc_off="隐藏播放界面的虚拟键"
+            zzh:desc_on="显示播放界面的虚拟键" />
+
+        <com.qianfeng.demo.biliplayer.view.SettingItemView
+            android:id="@+id/play_animation"
+            style="@style/textStyle"
+            android:background="@drawable/shape_no_corner_without_bottom"
+            zzh:content="禁用启动动画"
+            zzh:desc_off="播放广告"
+            zzh:desc_on="直接进入主题" />
+
+        <com.qianfeng.demo.biliplayer.view.SettingItemView
+            android:id="@+id/receive_message"
+            style="@style/textStyle"
+            android:background="@drawable/shape_no_corner_without_bottom"
+            zzh:content="不接收推送消息"
+            zzh:desc_off="接受消息"
+            zzh:desc_on="不接受消息" />
+
+        <com.qianfeng.demo.biliplayer.view.SettingItemView
+            android:id="@+id/flash_speed"
+            style="@style/textStyle"
+            android:background="@drawable/shape_no_corner_without_bottom"
+            zzh:content="海外视频加速"
+            zzh:desc_off="非海外用户大概会减速把"
+            zzh:desc_on="海外视频加速~~~Ohh" />
+
+        <TextView
+            android:id="@+id/cleancache"
+            style="@style/textStyle"
+            android:background="@drawable/shape_no_corner_without_bottom"
+            android:onClick="cleancache"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/cleanpicture"
+
+            />
+
+        <TextView
+            style="@style/textStyle"
+            android:background="@drawable/shape_no_corner_without_bottom"
+
+            android:text="@string/search" />
+
+        <TextView
+            style="@style/textStyle"
+            android:background="@drawable/shape_no_corner_without_bottom"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="startsetting"
+            android:text="@string/setting"
+            />
+
+        <TextView
+            style="@style/textStyle"
+            android:background="@drawable/shape_bottom_corner_line"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="helpme"
+            android:text="@string/help" />
+    </LinearLayout>
+</ScrollView>

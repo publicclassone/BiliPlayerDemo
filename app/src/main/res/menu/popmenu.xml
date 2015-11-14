@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_best"
+        android:title="跑分画质" />
+    <item
+        android:id="@+id/menu_good"
+        android:title="精美画质" />
+    <item
+        android:id="@+id/menu_general"
+        android:title="良心画质" />
+    <item
+        android:id="@+id/menu_bad"
+        android:title="渣画质" />
+</menu>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zzh="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/titleStyle"
+            android:text="解码模式选择" />
+
+        <com.qianfeng.demo.biliplayer.view.SettingItemRedioButton
+            android:id="@+id/automatic_selection"
+            style="@style/textStyle"
+            android:background="@drawable/app_list_corner_round_top"
+            android:onClick="GroupClick"
+            zzh:content="自动选择" />
+
+        <com.qianfeng.demo.biliplayer.view.SettingItemRedioButton
+            android:id="@+id/System_hardware"
+            style="@style/textStyle"
+            android:background="@drawable/shape_no_corner_without_bottom"
+            android:onClick="GroupClick"
+            zzh:content="系统硬解优先" />
+
+        <com.qianfeng.demo.biliplayer.view.SettingItemRedioButton
+            android:id="@+id/V3solution_preferred"
+            style="@style/textStyle"
+            android:background="@drawable/shape_no_corner_without_bottom"
+            android:onClick="GroupClick"
+            zzh:content="V3硬解优先（ijkplayer）" />
+
+        <com.qianfeng.demo.biliplayer.view.SettingItemRedioButton
+            android:id="@+id/solution_preferred"
+            style="@style/textStyle"
+            android:background="@drawable/shape_no_corner_without_bottom"
+            android:onClick="GroupClick"
+            zzh:content="V2硬解优先（VLG）" />
+
+        <com.qianfeng.demo.biliplayer.view.SettingItemRedioButton
+            android:id="@+id/compatible_mode"
+            style="@style/textStyle"
+            android:background="@drawable/shape_bottom_corner_line"
+            android:onClick="GroupClick"
+            zzh:content="软解优先（兼容模式）" />
+
+        <TextView
+            style="@style/titleStyle"
+            android:text="软件解码设置" />
+        <com.qianfeng.demo.biliplayer.view.SettingClickView
+            android:id="@+id/text_circulation"
+            style="@style/textStyle"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/app_list_corner_round_top"
+            android:onClick="Tnmuclick"
+            />
+        <com.qianfeng.demo.biliplayer.view.SettingClickView
+            android:id="@+id/text_pixecl_format"
+            style="@style/textStyle"
+            android:background="@drawable/shape_bottom_corner_line"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="Tnmuclick"/>
+    </LinearLayout>
+</ScrollView>

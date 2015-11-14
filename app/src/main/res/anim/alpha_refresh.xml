@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/fab_refresh"
+    android:fillAfter="false"
+    android:fromAlpha="0"
+    android:toAlpha="100"
+    >
+
+</alpha>

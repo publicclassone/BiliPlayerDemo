@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_vediodetil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textColor="#07ebef"
+        android:text="TV动画，BILIBLI独家正版，BILIBILI正版,绯弹的亚里亚AA，动画工房，非但 百合" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#aa000000"></View>
+
+    <TextView
+        android:id="@+id/tv_Introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="8dp"
+        android:text="   有意或无意，贾樟柯为这个角色赋予《百年孤独》中老祖母的异能。她一直洞悉万物，并在失去生活后结晶为矿石般的存在。她的那段舞，是对分裂河山的一次招魂，1999与2025在身体上对接。赵涛为这个角色贡献了殿堂级的表演，她的纯净、压抑、超脱，控制了镜头语言呈现的基调。也只有她（只有她，不包括张艾嘉）在每一帧影像中都保持些许克制，分离之苦的半个车身已经探出悬崖但却没有坠入绝对苦情的俗套。她坚韧地独享了“山河”二字的荣光。 " />
+
+</LinearLayout>
