@@ -221,6 +221,7 @@ public class SettingActivity extends BaseActivity {
                 dialog.dismiss();
                 sp.edit().clear().commit();
                 GitUp();
+
             }
         });
         no.setOnClickListener(new View.OnClickListener() {
